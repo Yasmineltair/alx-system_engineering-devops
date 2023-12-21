@@ -4,6 +4,6 @@
 I=1
 while [ $I -le 10 ]
 do
-   echo "Best School"
-   let I=I+1
+echo "Best School"
+let I=I+1
 done
