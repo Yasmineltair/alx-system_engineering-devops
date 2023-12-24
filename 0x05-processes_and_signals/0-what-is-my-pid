@@ -1,1 +1,2 @@
-aya
+#!/usr/bin/env bash
+echo $$ $BASHPID
