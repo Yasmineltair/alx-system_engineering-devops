@@ -11,4 +11,6 @@ backend web_servers
         balance roundrobin
 	server 512743-web-01 100.26.132.19
 	server 512743-web-02 18.209.223.94
-sudo service haproxy restart
+' >> /etc/haproxy/haproxy.cfg
+
+service haproxy restart
