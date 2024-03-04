@@ -23,4 +23,6 @@ service { 'nginx':
   enable    => true,
   require   => package['nginx'],
 }
-
+exec {'run':
+  command   => '/usr/sbin/service nginx restart',
+}
