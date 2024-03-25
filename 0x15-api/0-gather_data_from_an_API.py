@@ -25,7 +25,7 @@ for todo in todos:
 name = user.get("name")
 comp_l = len(completed)
 todos_l = len(todos)
-print("Employee {} is done with tasks({}/{})".format(name, comp_l, todos_l))
+print("Employee {} is done with tasks({}/{}):".format(name, comp_l, todos_l))
 
 for complete in completed:
     print("\t {}".format(complete))
