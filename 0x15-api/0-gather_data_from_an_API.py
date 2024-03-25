@@ -26,4 +26,4 @@ todos_l = len(todos)
 print("Employee {} is done with tasks({}/{})".format(name, comp_l, todos_l))
 
 for complete in completed:
-    print("/t {}".format(completed))
+    print("\t {}".format(complete))
